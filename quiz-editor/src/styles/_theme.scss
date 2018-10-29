@@ -1,0 +1,108 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$md-tegblue: (
+  50 : #e9eff6,
+  100 : #c8d7ea,
+  200 : #a3bddc,
+  300 : #7ea3cd,
+  400 : #638fc3,
+  500 : #477bb8,
+  600 : #4073b1,
+  700 : #3768a8,
+  800 : #2f5ea0,
+  900 : #204b91,
+  A100 : #cddfff,
+  A200 : #9abeff,
+  A400 : #679dff,
+  A700 : #4d8cff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$md-teggreen: (
+  50 : #f5faee,
+  100 : #e5f2d5,
+  200 : #d4e9ba,
+  300 : #c3e09e,
+  400 : #b6d989,
+  500 : #a9d274,
+  600 : #a2cd6c,
+  700 : #98c761,
+  800 : #8fc157,
+  900 : #7eb644,
+  A100 : #ffffff,
+  A200 : #ebffd8,
+  A400 : #d2ffa5,
+  A700 : #c5ff8b,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #000000,
+    900 : #000000,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$md-tegwarn: (
+  50 : #fbeded,
+  100 : #f6d1d1,
+  200 : #f0b3b3,
+  300 : #e99494,
+  400 : #e57d7d,
+  500 : #e06666,
+  600 : #dc5e5e,
+  700 : #d85353,
+  800 : #d34949,
+  900 : #cb3838,
+  A100 : #ffffff,
+  A200 : #ffe2e2,
+  A400 : #ffafaf,
+  A700 : #ff9696,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$md-teg-primary: mat-palette($md-tegblue);
+$md-teg-secondary: mat-palette($md-teggreen);
+$md-teg-warn: mat-palette($md-tegwarn);
+
+$md-teg-theme: mat-light-theme($md-teg-primary, $md-teg-secondary, $md-teg-warn);
+@include angular-material-theme($md-teg-theme);
