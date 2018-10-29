@@ -1,31 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { routing } from './app.routing';
-
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CommonModule } from '@angular/common';
+
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { routing } from './app.routing';
+import { FileAccessService } from './controllers/file-access.service';
 import { QuizComponent } from './components/quiz/quiz.component';
+import { MarkComponent } from './components/mark/mark.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    QuizComponent
+    QuizComponent,
+    MarkComponent
   ],
   imports: [
     routing,
     BrowserModule,
-    CommonModule,
     FlexLayoutModule,
+    CommonModule,
     MatDividerModule,
     MatButtonModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ FileAccessService ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }

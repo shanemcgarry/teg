@@ -1,3 +1,13 @@
-<p>
-  dashboard works!
-</p>
+<mat-divider></mat-divider>
+<div class="container">
+  <h2>Quiz Editor Dashboard</h2>
+  <p>
+    This is the Teg Quiz Editor Dashboard. From here you can choose to either create a new quiz data file or edit an
+    existing file. Remember, this site only generates the data file. You will still need to upload the new file to the
+    Teg website. Changing the file locally does not automatically update the Teg website quiz.
+  </p>
+  <div class="options">
+    <button mat-raised-button color="primary" (click)="this.canUpload = true;">Edit Existing Quiz</button>
+    <button mat-raised-button color="primary" (click)="createNew()">Create New Quiz</button>
+  </div>
+</div>
