@@ -39,6 +39,7 @@ export class FileAsset {
 
 export class QuestionGroup {
   infoText: string;
+  title: string;
   questions: Question[];
   assets: FileAsset[];
 

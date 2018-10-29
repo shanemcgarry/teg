@@ -1,3 +1,40 @@
-<p>
-  quiz works!
-</p>
+<mat-tab-group color="accent" *ngIf="!this.beginQuiz">
+  <mat-tab label="Irish">
+    <h3>Déan tástáil ar do chuid Gaeilge!</h3>
+
+    <p>An tosaitheoir tú?</p>
+    <p>An bhfuil tú ag an meánleibhéal?</p>
+    <p>An mbíonn tú ag úsáid na Gaeilge cheana féin i do phost?</p>
+    <p>
+      Tabharfaidh an triail seo léargas ginearálta duit maidir le do chumas sa Ghaeilge. Ansin, beidh tú in ann an
+      leibhéal agus an scrúdú ceart a roghnú duitse!
+    </p>
+    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz = true;">TÚS</button>
+  </mat-tab>
+  <mat-tab label="English">
+    <h3>Test your Irish!</h3>
+
+    <p>Are you a beginner?</p>
+    <p>Are you at intermediate level?</p>
+    <p>Are you already using Irish in your job? </p>
+    <p>
+      This test will give you a general idea of your ability in Irish. Then you will be able to choose the correct
+      level and the correct examination for you!
+    </p>
+    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz = true;">START</button>
+  </mat-tab>
+</mat-tab-group>
+<div class="clear"></div>
+<mat-horizontal-stepper *ngIf="this.beginQuiz && this.dataModel" [linear]="true" #stepper>
+  <mat-step *ngFor="let qg of this.dataModel">
+    <ng-template matStepLabel>{{ qg.title }}</ng-template>
+    <app-question-group></app-question-group>
+    <button mat-raised-button color="accent" matStepperNext>Next</button>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Submit</ng-template>
+    To submit your test and get your final score, click the submit button. Otherwise, you can go back to edit your answers.
+    <button mat-raised-button color="accent" matStepperPrevious>Back</button>
+    <button mat-raised-button color="primary" class="start-button" (click)="onSubmit()">Submit</button>
+  </mat-step>
+</mat-horizontal-stepper>
