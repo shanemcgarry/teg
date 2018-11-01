@@ -50,7 +50,7 @@ export class QuizMarkComponent implements OnInit {
             console.log('uh oh! bad value!');
             console.log(q);
           }
-          
+
           if (q.answer.value.includes('/')) {
             const possibleValues = q.answer.value.split('/');
             if ( q.answer.userResponse in possibleValues) {

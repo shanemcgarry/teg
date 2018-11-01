@@ -1462,6 +1462,493 @@
             }
           }
         ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Ní raibh ar díol sa siopa ach ceapairí, deochanna ____________agus uachtar reoite.",
+            "afterText" : null,
+            "sortOrder" : 47,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "fuaire"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "fuar"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "fuara"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "fuair"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 8,
+    "title" : "Part VIII",
+    "groups" : [
+      {
+        "instructionText" : "Read the text below. Choose the correct answer.",
+        "additionalHTML" : "<div class=letter>\n<p>\nBean ildánach í Laurie Spain. Ní raibh a fhios agam, go dtí gur léigh mé an leabhar seo, go bhfuair sí a céad ról stáitse nuair nach raibh sí ach trí bliana déag d’aois. B’eol dom, murabh eol dá lán eile, go raibh sí le feiceáil i gcuid de na scannáin ba spéisiúla a rinneadh le linn an 1980í — scannáin nár tharraing na sluaite riamh. Luaigh a hainm le daoine inniu agus is dócha go dtosóidh siad ag canadh ceann de na hamhráin úd a chuir a hainm in airde i dtús na 1990í, bíodh is gur thug sí fuath a croí dóibh ina dhiaidh sin. Agus seo anois an cor is déanaí sa scéal — Laurie Spain, scríbhneoir.\n</p>\n<p>\r\nLéifidh daoine an leabhar seo le fáil amach cén fáth ar éirigh Laurie as an saol poiblí. Cinnte, ní raibh sé i gceist aici riamh ‘ceol do dhéagóirí a chanadh agus mé in aois an phinsin’ ach ní seanbhean a bhí inti nuair a d’fhógair sí go raibh sí ag fágáil an stáitse. Dúirt sí san am gur ‘amadán a leanfadh ar aghaidh ag obair nuair nach gá’ agus is cinnte go gcuirfeadh na camchuairteanna fada idirnáisiúnta tuirse chroí ar dhuine ar bith: ‘Níor luigh mé ar aon leaba amháin níos faide ná trí oíche i ndiaidh a chéile.’ Measaim, áfach, gur fearr an míniú a fhaighimid i dteideal an leabhair seo. Cér leis Laurie an t-am sin? Leis an gcomhlacht ceoil a chuir brú uirthi amhráin nár thaitin léi a chanadh. Leis an mbainisteoir a thug uirthi páirteanna a ghlacadh i scannáin agus i seónna seafóideacha. Sa bhliain 1996 shocraigh sí go raibh a sáith aici. Dhéanfadh sí a comhairle féin as sin amach.\n</p>\r\n</div>",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cad é an clú is mó atá ar Laurie? ",
+            "afterText" : null,
+            "sortOrder" : 48,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "mar údar"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "mar aisteoir stáitse"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "mar amhránaí"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "mar aisteoir i scannáin"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cén fáth ar éirigh Laurie as? Roghnaigh an ráiteas is fearr ón liosta thíos.",
+            "afterText" : null,
+            "sortOrder" : 49,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "bhí sí ag éirí róshean"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "ní raibh smacht aici ar a cuid oibre féin"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "bhí an taisteal róthuirsiúil"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "bhí a dóthain airgid saothraithe aici"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Listen to the following recording and choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q50-51.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/audio/Q50-51.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cá mbeidh cóisir ag an bhfear?",
+            "afterText" : null,
+            "sortOrder" : 50,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "ina theach"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "sa ghairdín"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "in óstán"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "i mbialann"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cén post atá ag an bhfear?",
+            "afterText" : null,
+            "sortOrder" : 51,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "fear gnó"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "bainisteoir oifige"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "iriseoir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "polaiteoir"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Read the following text. Fill each gap with an appropriate word.",
+        "additionalHtml" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "fill-in",
+            "level" : "B2",
+            "beforeText" : "Cad é an",
+            "afterText" : "chuimhne atá agat? Ligfidh mé duit bheith ag smaoineamh air sin ar feadh tamaill. ",
+            "sortOrder" : 0,
+            "showAnswer" : true,
+            "answer" : {
+              "value" : "chéad",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B2",
+            "beforeText" : "Idir an dá linn,",
+            "afterText" : "mé duit faoin gcuimhne is faide siar i mo cheannsa — mé amuigh ag ciceáil liathróide agus éide United orm. M’athair a cheannaigh dom í. ",
+            "sortOrder" : 52,
+            "answer" : {
+              "value" : "inseoidh/neosfaidh",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B2",
+            "beforeText" : "Ceithre bliana d’aois a bhí mé agus mé lánchinnte cad é go díreach a bhí romham. Dhéanfainn éachtaí ar an bpáirc peile, in éide United agus in éide ghlas na hÉireann. ",
+            "afterText" : "ar an bpeileadóir ab fhearr a chuir cos i mbróg. Sin a cheap mé an t-am sin…ach ní mar sin a tharla. Is múinteoir spóirt anois mé i meánscoil i gContae Lú, ach níor chaill mé riamh an dúil a bhí agam i sacar. ",
+            "sortOrder" : 53,
+            "answer" : {
+              "value" : "Bheinn",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B2",
+            "beforeText" : "D’fhan mé dílis do United freisin, ach níl mé cinnte anois gur fhan siadsan dílis",
+            "afterText" : ".",
+            "sortOrder" : 54,
+            "answer" : {
+              "value" : "domsa",
+              "mark" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
+      {
+        "instructionText" : "Read the following text and choose the correct answer. ",
+        "additionalHTML" : "<div class=letter>\n<p>\nBhí comhrá spéisiúil agam san oifig inniu ag an sos caife. “Tuirse, sin an chúis go bhféachaimid ar an teilifís chomh minic sin,” a dúirt Sally. “Is furasta a rá gur chóir dúinn bheith ag bácáil aráin nó ag déanamh céim dlí tráthnóna. Ach abair liom, an mbíonn fonn ortsa faic a dhéanamh i ndiaidh lá oibre ach luí ar an tolg agus do shúile sáite i sobaldráma éigin?” D’aontaigh mé léi agus rinne mé gáire ach, le fírinne, ní raibh mé róbhródúil asam féin. Nach minic a chuir mé Nuala bheag ina suí os comhair na teilifíse ar feadh breis agus uair an chloig nuair nach raibh fonn orm súgradh léi? Nach minic a chaith mé an nuachtán leis an teilifís nuair a bhí polaiteoir éigin ag caint amaidí? Agus nach minic a dúirt mo bhean chéile liom: “Bhuel má chuireann sé isteach ort chomh mór sin, cad chuige nach ndéanfá rud éigin?”\n</p>\r\n</div>",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cé acu abairt is fearr a dhéanann cur síos ar dhearcadh an údair?",
+            "afterText" : null,
+            "sortOrder" : 55,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Creideann sé gur cuid den saol is ea an brú ama agus nach féidir faic a dhéanamh faoi."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Tá rud beag náire ar an údar faoina nósanna teilifíse féin."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Tá an t-údar ag iarraidh go mbeidh meascán caitheamh aimsire ag a iníon."
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Síleann an t-údar go bhfuil buntáistí ag baint leis an teilifís."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Listen to the following recording and choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q56.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/audio/Q56.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Cé leis a bhfuil an fear seo ag caint?",
+            "afterText" : null,
+            "sortOrder" : 56,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "le dochtúir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "le húinéir bialainne"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "le hiriseoir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "le rúnaí"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Tá fear an-deas ina chónaí béal dorais dúinn agus  ______________ sé súil ar an árasán nuair a bhímid as baile.",
+            "afterText" : null,
+            "sortOrder" : 57,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "choimeád"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "coimeádfaidh"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "choimeádfadh"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "coimeádann"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Easpa ama! Sin é galar mór na linne seo. Ní bhíonn am againn sos lóin a ghlacadh. Diúltaímid cuirí ó chairde mar ní bhíonn deis againn ________ a chaitheamh ina gcuideachta.",
+            "afterText" : null,
+            "sortOrder" : 58,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "scíth"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "seal"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "siamsa"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "sochaí"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Is beag duine nár chuala ______________  éigin ar an teanga idirnáisiúnta, Esperanto. ",
+            "afterText" : null,
+            "sortOrder" : 59,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "tagairt"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "teagmháil"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "trácht"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "teagasc"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B2",
+            "beforeText" : "Tógadh Zamenhof in Bialystok, áit a bhí faoi smacht na Rúise sa bhliain 1859. Bhí idir Pholannaigh, Ghearmánaigh, Rúisigh agus Ghiúdaigh ag cur fúthu in Bialystok, agus ní áibhéil a rá nach mbídís ag réiteach le chéile go hiontach maith. D’fhág an fuath creidimh agus an naimhdeas náisiúnach a ______________  ar an bhfear óg.",
+            "afterText" : null,
+            "sortOrder" : 60,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "racht"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "réimse"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "rath"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "rian"
+                }
+              ]
+            }
+          }
+        ]
       }
     ]
   }
