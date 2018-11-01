@@ -1,9 +1,9 @@
-enum QuestionType {
+export enum QuestionType {
   MultipleChoice = 'multi',
   FillInTheBlank = 'fill-in'
 }
 
-enum LevelType {
+export enum LevelType {
   None = '',
   A1 = 'A1',
   A2 = 'A2',
@@ -11,12 +11,18 @@ enum LevelType {
   B2 = 'B2'
 }
 
-enum AssetType {
+export enum AssetType {
   AudioClip = 'audio',
   Image = 'image'
 }
 
-enum OptionType {
+export enum OptionType {
   Standard = 'string',
   Asset = 'asset'
+}
+
+export enum QuizViewMode {
+  Instructions,
+  Quiz,
+  Marks
 }

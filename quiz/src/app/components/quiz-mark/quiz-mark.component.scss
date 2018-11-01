@@ -1,0 +1,19 @@
+@import '../../../styles/_theme';
+
+.message {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  border: double .25em mat-color($md-teg-secondary);
+  padding-left: 2%;
+  padding-right: 2%;
+  p {
+    max-width: 100%;
+  }
+}
+
+.container {
+  padding-top: .5%;
+  padding-bottom: 5%;
+  margin-top: 0px;
+}

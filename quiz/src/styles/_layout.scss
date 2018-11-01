@@ -1,3 +1,5 @@
+@import '_theme.scss';
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #444;
@@ -13,3 +15,9 @@ body {
   clear: both;
 }
 
+
+.letter {
+  border: double .1em mat-color($md-teg-primary);
+  padding: 1% 1% 1% 1%;
+  font-style: italic;
+}

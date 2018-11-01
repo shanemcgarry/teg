@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { QuestionGroup } from '../../models/question.model';
 
 @Component({
   selector: 'app-question-group',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./question-group.component.scss']
 })
 export class QuestionGroupComponent implements OnInit {
-
+  @Input() data: QuestionGroup;
   constructor() { }
 
   ngOnInit() {
+    console.log(this.data);
   }
 
 }

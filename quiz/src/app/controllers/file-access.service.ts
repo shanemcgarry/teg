@@ -3,7 +3,7 @@ import { HttpClient} from '@angular/common/http';
 import { HandleError, HttpErrorHandlerService } from './http-error-handler.service';
 import { Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { QuestionGroup } from '../models/question.model';
+import { QuizStep } from '../models/question.model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,8 +15,8 @@ export class FileAccessService {
     this.handleError = this.httpError.createHandleError('FileAccessService');
   }
 
-  getQuestionFile(): Observable<QuestionGroup[]> {
-    return this.httpClient.get<QuestionGroup[]>('./assets/question-data/question-data.json')
+  getQuestionFile(): Observable<QuizStep[]> {
+    return this.httpClient.get<QuizStep[]>('./assets/question-data/question-data.json')
       .pipe(
         catchError(this.handleError('getQuestionFile', null))
       );

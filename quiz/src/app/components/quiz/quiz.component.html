@@ -1,4 +1,4 @@
-<mat-tab-group color="accent" *ngIf="!this.beginQuiz">
+<mat-tab-group color="accent" *ngIf="this.viewMode === this.quizViewMode.Instructions">
   <mat-tab label="Irish">
     <h3>Déan tástáil ar do chuid Gaeilge!</h3>
 
@@ -9,7 +9,7 @@
       Tabharfaidh an triail seo léargas ginearálta duit maidir le do chumas sa Ghaeilge. Ansin, beidh tú in ann an
       leibhéal agus an scrúdú ceart a roghnú duitse!
     </p>
-    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz = true;">TÚS</button>
+    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz()">TÚS</button>
   </mat-tab>
   <mat-tab label="English">
     <h3>Test your Irish!</h3>
@@ -21,20 +21,26 @@
       This test will give you a general idea of your ability in Irish. Then you will be able to choose the correct
       level and the correct examination for you!
     </p>
-    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz = true;">START</button>
+    <button mat-raised-button color="primary" class="start-button" (click)="this.beginQuiz()">START</button>
   </mat-tab>
 </mat-tab-group>
 <div class="clear"></div>
-<mat-horizontal-stepper *ngIf="this.beginQuiz && this.dataModel" [linear]="true" #stepper>
-  <mat-step *ngFor="let qg of this.dataModel">
-    <ng-template matStepLabel>{{ qg.title }}</ng-template>
-    <app-question-group></app-question-group>
-    <button mat-raised-button color="accent" matStepperNext>Next</button>
+<mat-horizontal-stepper *ngIf="this.viewMode === this.quizViewMode.Quiz && this.dataModel" [linear]="true" #stepper>
+  <mat-step *ngFor="let s of this.dataModel">
+    <ng-template matStepLabel>{{ s.title }}</ng-template>
+    <app-question-group *ngFor="let qg of s.groups " [data]="qg"></app-question-group>
+    <button *ngIf="s.sortOrder > 1" mat-raised-button color="accent" class="nav-buttons" matStepperPrevious>Back</button>
+    <button mat-raised-button color="accent" class="nav-buttons" matStepperNext>Next</button>
   </mat-step>
   <mat-step>
     <ng-template matStepLabel>Submit</ng-template>
-    To submit your test and get your final score, click the submit button. Otherwise, you can go back to edit your answers.
-    <button mat-raised-button color="accent" matStepperPrevious>Back</button>
-    <button mat-raised-button color="primary" class="start-button" (click)="onSubmit()">Submit</button>
+    <div>To submit your test and get your final score, click the submit button. Otherwise, you can go back to edit your answers.</div>
+    <div fxFlex fxLayoutAlign="center" class="quiz-complete-buttons">
+      <button mat-raised-button color="accent" matStepperPrevious>Back</button>
+      <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    </div>
   </mat-step>
 </mat-horizontal-stepper>
+<section class="final-marks" *ngIf="this.viewMode === this.quizViewMode.Marks">
+  <app-quiz-mark [data]="this.dataModel"></app-quiz-mark>
+</section>

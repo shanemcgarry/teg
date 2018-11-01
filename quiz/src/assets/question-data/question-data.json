@@ -1,707 +1,1018 @@
 [
   {
     "sortOrder" : 1,
-    "title" : "Basic Questions",
-    "infoText" : "Choose the correct answer.",
-    "assets" : null,
-    "questions" : [
+    "title" : "Part I",
+    "groups" : [
       {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Máire is ainm ……………...",
-        "afterText" : null,
-        "sortOrder" : 1,
-        "answer" : {
-          "value" : "D",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "liom"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "orm"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "agam"
-            },
-            {
-              "type" : "string",
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Máire is ainm ……………...",
+            "afterText" : null,
+            "sortOrder" : 1,
+            "answer" : {
               "value" : "D",
-              "label" : "dom"
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "liom"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "orm"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "agam"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "dom"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "……………... bhfuil tú i do chónaí?",
-        "afterText" : null,
-        "sortOrder" : 2,
-        "answer" : {
-          "value" : "A",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "……………... bhfuil tú i do chónaí?",
+            "afterText" : null,
+            "sortOrder" : 2,
+            "answer" : {
               "value" : "A",
-              "label" : "Cá"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "Cén"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "Conas"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "Cad"
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Cá"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Cén"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Conas"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Cad"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Chuaigh mé go dtí an phictiúrlann chun …..………..a fheiceáil.",
-        "afterText" : null,
-        "sortOrder" : 3,
-        "answer" : {
-          "value" : "B",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Chuaigh mé go dtí an phictiúrlann chun …..………..a fheiceáil.",
+            "afterText" : null,
+            "sortOrder" : 3,
+            "answer" : {
+              "value" : "B",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "leabhar"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "scannán"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "clár"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "nuacht"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Tá ……………… agus dhá chathaoir sa seomra suí.",
+            "afterText" : null,
+            "sortOrder" : 4,
+            "answer" : {
+              "value" : "C",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "sorn"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "leaba"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "tolg"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "cuisneoir"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Is altra mé agus oibrím ……………………….",
+            "afterText" : null,
+            "sortOrder" : 5,
+            "answer" : {
+              "value" : "D",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "i dteach tábhairne"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "i monarcha"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "in ollmhargadh"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "in ospidéal"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "An bhfuil Fraincis agat?",
+            "afterText" : null,
+            "sortOrder" : 6,
+            "answer" : {
+              "value" : "D",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "B’fhéidir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Uaireanta"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Cuíosach"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Beagán"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Bhí béile an-deas agam sa ……………………. aréir.",
+            "afterText" : null,
+            "sortOrder" : 7,
+            "answer" : {
               "value" : "A",
-              "label" : "leabhar"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "scannán"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "clár"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "nuacht"
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "bhaile"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "bhainne"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "bhille"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "bhiachlár"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Tá ……………… agus dhá chathaoir sa seomra suí.",
-        "afterText" : null,
-        "sortOrder" : 4,
-        "answer" : {
-          "value" : "C",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Bhí mé ag an dochtúir inné.",
+            "afterText" : null,
+            "sortOrder" : 8,
+            "answer" : {
+              "value" : "C",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Ar fhan tú sa seomra suí?"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Ar fhéach tú ar an gclár?"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Ar ghortaigh tú do chos?"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Ar chodail tú go maith?"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "An ……………... tú chuig an teach tábhairne?",
+            "afterText" : null,
+            "sortOrder" : 9,
+            "answer" : {
+              "value" : "B",
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "gcaitheann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "dtéann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "dtuigeann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "bhféachann"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "",
+            "beforeText" : "Tá tart orm agus ba mhaith liom  ……………...",
+            "afterText" : null,
+            "sortOrder" : 10,
+            "answer" : {
               "value" : "A",
-              "label" : "sorn"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "leaba"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "tolg"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "cuisneoir"
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "uisce"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "airgead"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "arán"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "codladh"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Is altra mé agus oibrím ……………………….",
-        "afterText" : null,
-        "sortOrder" : 5,
-        "answer" : {
-          "value" : "D",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Ithim mo lón …………….. a haon agus a dó.",
+            "afterText" : null,
+            "sortOrder" : 11,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "roimh"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "idir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "tar éis"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "chun"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Ar thaitin an scannán leat?",
+            "afterText" : null,
+            "sortOrder" : 12,
+            "answer" : {
               "value" : "A",
-              "label" : "i dteach tábhairne"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "i monarcha"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "in ollmhargadh"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "in ospidéal"
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Bhí sé rud beag rófhada."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Thaitin an chéad chúrsa liom."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Níor éirigh go rómhaith leis."
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Bíonn sé ar siúl an-déanach."
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "An bhfuil Fraincis agat?",
-        "afterText" : null,
-        "sortOrder" : 6,
-        "answer" : {
-          "value" : "D",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "B’fhéidir"
-            },
-            {
-              "type" : "string",
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Bhí mé ar saoire i Sligeach agus d’fhan mé  ____ óstán beag cois farraige.",
+            "afterText" : null,
+            "sortOrder" : 13,
+            "answer" : {
               "value" : "B",
-              "label" : "Uaireanta"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "Cuíosach"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "Beagán"
+              "mark" : 1,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "i"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "in"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "sa"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "san"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Bhí béile an-deas agam sa ……………………. aréir.",
-        "afterText" : null,
-        "sortOrder" : 7,
-        "answer" : {
-          "value" : "A",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "bhaile"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "bhainne"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "bhille"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "bhiachlár"
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Bhí mé ag an dochtúir inné.",
-        "afterText" : null,
-        "sortOrder" : 8,
-        "answer" : {
-          "value" : "C",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "Ar fhan tú sa seomra suí?"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "Ar fhéach tú ar an gclár?"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "Ar ghortaigh tú do chos?"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "Ar chodail tú go maith?"
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "An ……………... tú chuig an teach tábhairne?",
-        "afterText" : null,
-        "sortOrder" : 9,
-        "answer" : {
-          "value" : "B",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "gcaitheann"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "dtéann"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "dtuigeann"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "bhféachann"
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "",
-        "beforeText" : "Tá tart orm agus ba mhaith liom  ……………...",
-        "afterText" : null,
-        "sortOrder" : 10,
-        "answer" : {
-          "value" : "A",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "uisce"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "airgead"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "arán"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "codladh"
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Ithim mo lón …………….. a haon agus a dó.",
-        "afterText" : null,
-        "sortOrder" : 11,
-        "answer" : {
-          "value" : "B",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "roimh"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "idir"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "tar éis"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "chun"
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Ar thaitin an scannán leat?",
-        "afterText" : null,
-        "sortOrder" : 12,
-        "answer" : {
-          "value" : "A",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "Bhí sé rud beag rófhada."
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "Thaitin an chéad chúrsa liom."
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "Níor éirigh go rómhaith leis."
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "Bíonn sé ar siúl an-déanach."
-            }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Bhí mé ar saoire i Sligeach agus d’fhan mé  ____ óstán beag cois farraige.",
-        "afterText" : null,
-        "sortOrder" : 13,
-        "answer" : {
-          "value" : "B",
-          "mark" : 1,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "i"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "in"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "sa"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "san"
-            }
-          ]
-        }
+          }
+        ]
       }
     ]
   },
   {
     "sortOrder" : 2,
-    "title" : "Level 1 Questions",
-    "infoText" : "Read the following email. Fill each gap with an appropriate word.",
-    "assets" : null,
-    "questions" : [
+    "title" : "Part II",
+    "groups" : [
       {
-        "type" : "fill-in",
-        "level" : "A1",
-        "beforeText" : "An cuimhin",
-        "afterText" : "Sorcha?",
-        "sortOrder" : 0,
-        "showAnswer" : true,
-        "answer" : {
-          "value" : "leat",
-          "mark" : 0
-        }
+        "instructionText" : "Read the following email. Fill each gap with an appropriate word.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "fill-in",
+            "level" : "A1",
+            "beforeText" : "An cuimhin",
+            "afterText" : "Sorcha?",
+            "sortOrder" : 0,
+            "showAnswer" : true,
+            "answer" : {
+              "value" : "leat",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A1",
+            "beforeText" : "Bhí sí sa",
+            "afterText" : "liom ar scoil.",
+            "sortOrder" : 14,
+            "showAnswer" : false,
+            "answer" : {
+              "value" : "rang",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A1",
+            "beforeText" : "Tá sí pósta anois agus tá beirt pháistí",
+            "afterText" : null,
+            "sortOrder" : 15,
+            "showAnswer" : false,
+            "answer" : {
+              "value" : "aici",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A1",
+            "beforeText" : "Is altra í agus tá sí ag",
+            "afterText" : "san ospidéal áitiúil.",
+            "sortOrder" : 16,
+            "showAnswer" : false,
+            "answer" : {
+              "value" : "obair",
+              "mark" : 0
+            }
+          }
+        ]
       },
       {
-        "type" : "fill-in",
-        "level" : "A1",
-        "beforeText" : "Bhí sí sa",
-        "afterText" : "liom ar scoil.",
-        "sortOrder" : 14,
-        "showAnswer" : false,
-        "answer" : {
-          "value" : "rang",
-          "mark" : 0
-        }
+        "instructionText" : "Listen to the following recording and choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q17-18.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/audio/Q17-18.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Cén post atá ar fáil san óstán?",
+            "afterText" : null,
+            "sortOrder" : 17,
+            "answer" : {
+              "value" : "A",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "asset",
+                  "value" : "A",
+                  "assetInfo" : {
+                    "type" : "image",
+                    "value" : "question-data/images/q17a.png"
+                  }
+                },
+                {
+                  "type" : "asset",
+                  "value" : "B",
+                  "assetInfo" : {
+                    "type" : "image",
+                    "value" : "question-data/images/q17b.png"
+                  }
+                },
+                {
+                  "type" : "asset",
+                  "value" : "C",
+                  "assetInfo" : {
+                    "type" : "image",
+                    "value" : "question-data/images/q17c.png"
+                  }
+                },
+                {
+                  "type" : "asset",
+                  "value" : "D",
+                  "assetInfo" : {
+                    "type" : "image",
+                    "value" : "question-data/images/q17d.png"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Cén t-am a dtosóidh an duine ag obair ar an Satharn?",
+            "afterText" : null,
+            "sortOrder" : 18,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "9.00"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "10.00"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "11.00"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "12.00"
+                }
+              ]
+            }
+          }
+        ]
       },
       {
-        "type" : "fill-in",
-        "level" : "A1",
-        "beforeText" : "Tá sí pósta anois agus tá beirt pháistí",
-        "afterText" : null,
-        "sortOrder" : 15,
-        "showAnswer" : false,
-        "answer" : {
-          "value" : "aici",
-          "mark" : 0
-        }
-      },
-      {
-        "type" : "fill-in",
-        "level" : "A1",
-        "beforeText" : "Is altra í agus tá sí ag",
-        "afterText" : "san ospidéal áitiúil.",
-        "sortOrder" : 16,
-        "showAnswer" : false,
-        "answer" : {
-          "value" : "obair",
-          "mark" : 0
-        }
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Rinne Giovanni cúrsa cócaireachta an bhliain seo caite. Is cócaire _______________ anois é agus tá post aige i mbialann Iodálach.",
+            "afterText" : null,
+            "sortOrder" : 19,
+            "answer" : {
+              "value" : "A",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "an-mhaith"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "rómhaith"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "go maith"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "gan mhaith"
+                }
+              ]
+            }
+          }
+        ]
       }
     ]
   },
   {
     "sortOrder" : 3,
-    "title" : "Level 2 Questions",
-    "infoText" : "Listen to the following recording and choose the correct answer.",
-    "assets" : [
+    "title" : "Part III",
+    "groups" : [
       {
-        "type" : "audio",
-        "value" : "question-data/audio/Q17-18.mp3"
+        "instructionText" : "Read the following letter. Choose the correct answer.",
+        "additionalHTML" : "<div class=letter>\n<p>Haigh, a Shiobhán,</p>\n<p>Seo do chara Nioclás ag scríobh chugat ón…ospidéal! Thit mé den rothar ag an deireadh seachtaine agus tá mo chos briste. Beidh mé trí seachtaine eile i mo luí anseo!</p>\n<p>Ar inis mé duit go bhfuil post beag agam anois i leabharlann na hollscoile? Níl mé ann ach le tamall gearr, agus níl aithne mhaith agam ar na hoibrithe eile fós. Tá an leabharlann dúnta don Nollaig ach deir siad go mbeidh fáilte romham ar ais sa bhliain nua. Chuir siad cárta Nollag chugam anseo san ospidéal chomh maith.</p>\r\n<p>Ní shílim go mbeidh fáilte romham ar ais ar an fhoireann peile, áfach. ‘Ná déan níos mó ná rud beag siúil ar feadh cúpla mí’ – sin a deir an dochtúir. Ó, beidh sé deacair dom suí síos ag féachaint ar dhaoine eile ag imirt!</p>\n</div>\r\n",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Beidh Nioclás san ospidéal ar feadh coicíse.",
+            "afterText" : null,
+            "sortOrder" : 20,
+            "answer" : {
+              "value" : "Bréagach",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "Fíor",
+                  "label" : "Fíor"
+                },
+                {
+                  "type" : "string",
+                  "value" : "Bréagach",
+                  "label" : "Bréagach"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Níl na daoine eile sa leabharlann róchairdiúil.",
+            "afterText" : null,
+            "sortOrder" : 21,
+            "answer" : {
+              "value" : "Bréagach",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "Fíor",
+                  "label" : "Fíor"
+                },
+                {
+                  "type" : "string",
+                  "value" : "Bréagach",
+                  "label" : "Bréagach"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A1",
+            "beforeText" : "Imríonn Nioclás peil de ghnáth.",
+            "afterText" : null,
+            "sortOrder" : 22,
+            "answer" : {
+              "value" : "Fíor",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "Fíor",
+                  "label" : "Fíor"
+                },
+                {
+                  "type" : "string",
+                  "value" : "Bréagach",
+                  "label" : "Bréagach"
+                }
+              ]
+            }
+          }
+        ]
       },
       {
-        "type" : "image",
-        "value" : "question-data/images/group3.png"
-      }
-    ],
-    "questions" : [
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Cén post atá ar fáil san óstán?",
-        "afterText" : null,
-        "sortOrder" : 17,
-        "answer" : {
-          "value" : "A",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "asset",
-              "value" : "A",
-              "assetInfo" : {
-                "type" : "image",
-                "value" : "question-data/images/q17a.png"
-              }
-            },
-            {
-              "type" : "asset",
-              "value" : "B",
-              "assetInfo" : {
-                "type" : "image",
-                "value" : "question-data/images/q17b.png"
-              }
-            },
-            {
-              "type" : "asset",
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Cén uair a bheidh sibh ag imeacht? ",
+            "afterText" : null,
+            "sortOrder" : 23,
+            "answer" : {
               "value" : "C",
-              "assetInfo" : {
-                "type" : "image",
-                "value" : "question-data/images/q17c.png"
-              }
-            },
-            {
-              "type" : "asset",
-              "value" : "D",
-              "assetInfo" : {
-                "type" : "image",
-                "value" : "question-data/images/q17d.png"
-              }
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Ar feadh seachtaine i mí Lúnasa."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Beidh, i gceann cúpla lá."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Ag tús na míosa seo chugainn. "
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Le bliain nó dhó, is dóigh liom."
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Cén t-am a dtosóidh an duine ag obair ar an Satharn?",
-        "afterText" : null,
-        "sortOrder" : 18,
-        "answer" : {
-          "value" : "B",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "9.00"
-            },
-            {
-              "type" : "string",
-              "value" : "B",
-              "label" : "10.00"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "11.00"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "12.00"
-            }
-          ]
-        }
+          }
+        ]
       }
     ]
   },
   {
     "sortOrder" : 4,
-    "title" : "Level 3 Questions",
-    "infoText" : "Choose the correct answer.",
-    "assets" : null,
-    "questions" : [
+    "title" : "Part IV",
+    "groups" : [
       {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Rinne Giovanni cúrsa cócaireachta an bhliain seo caite. Is cócaire _______________ anois é agus tá post aige i mbialann Iodálach.",
-        "afterText" : null,
-        "sortOrder" : 19,
-        "answer" : {
-          "value" : "A",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "A",
-              "label" : "an-mhaith"
-            },
-            {
-              "type" : "string",
+        "instructionText" : "Read the descriptions below and choose the correct answer.",
+        "additionalHTML" : "<div class=letter>\n<strong>Laura Henderson</strong>\n<p>\r\nIs aisteoir í Laura a bhíonn ag obair cúpla lá sa tseachtain leis an ngrúpa ‘Ceol agus Dráma sna Scoileanna’. Tá roinnt mhaith obair amharclainne agus raidió déanta aici ach éiríonn sí an-neirbhíseach sula dtosaíonn sí ag aisteoireacht. ‘Bíonn cúpla toitín de dhíth orm,’ a deir sí, ‘agus cúpla gloine fíona chomh maith.’ Ba bhreá léi slí eile a fhoghlaim chun déileáil leis an strus. ‘Bhí cluiche leadóige agam inné agus bhí orm éirí as i ndiaidh deich nóiméad. Níl sin maith go leor.’\n</p>\r\n<strong>Michelle Ní Ríordáin</strong>\r\n<p>\nIs bainisteoir comhlacht teilifíse í Michelle. Bíonn sí an-ghnóthach i gcónaí ach bhí na chéad chúpla bliain den obair níos deacra fós, a deir sí. ‘Is cuimhin liom go mbíodh tuirse agus tinneas cinn orm ó mhaidin go hoíche.’ Conas a tháinig biseach uirthi, mar sin? ‘Bhuel, caithfidh tú aire a thabhairt duit féin. Thosaigh mise ag traenáil le cumann peil ghaelach anseo. Molaim do gach aon duine é.’ Bíonn Michelle ag cabhrú le hobair an chumainn, ag múineadh ranganna Gaeilge do dhaoine fásta. ‘Casadh an-chuid cairde nua orm ar an mbealach sin.’  \n</p>\r\n<strong>Joe Ó Briain</strong>\n<p>\r\nSeans go bhfuil aithne agaibh ar Joe cheana féin, má chonaic sibh an clár ‘Cúrsaí Oideachais’. Tá deich mbliana caite aige i Scoil Naomh Fionnbarra i gCorcaigh agus is iomaí ealaíontóir óg a d’fhreastail ar a chuid ranganna ansin. An mbíonn strus ar bith i saol lucht scoile? ‘Ó bíonn; tá mé tinn tuirseach ag éisteacht le daoine ag gearán faoin strus. Téann cuid acu ag rothaíocht nó ag snámh agus tá sin go breá ar fad. Ní oireann sé domsa, caithfidh mé a rá. Is breá liom féin dul go dtí na seisiúin a bhíonn sna pubanna anseo agus cúpla amhrán a chasadh. Ar ndóigh, uisce a ólaim ón Luan go dtí an Aoine!’  \n</p>\n</div>\r\n",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Síleann an duine seo gurb í an aclaíocht an tslí is fearr chun déileáil le strus.",
+            "afterText" : null,
+            "sortOrder" : 24,
+            "answer" : {
               "value" : "B",
-              "label" : "rómhaith"
-            },
-            {
-              "type" : "string",
-              "value" : "C",
-              "label" : "go maith"
-            },
-            {
-              "type" : "string",
-              "value" : "D",
-              "label" : "gan mhaith"
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Laura Henderson"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Michelle Ní Ríordáin "
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Joe Ó Briain"
+                }
+              ]
             }
-          ]
-        }
+          },
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Tá strus ag cur isteach ar shláinte an duine seo.",
+            "afterText" : null,
+            "sortOrder" : 25,
+            "answer" : {
+              "String" : "A",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Laura Henderson"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Michelle Ní Ríordáin "
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Joe Ó Briain"
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Múinteoir scoile atá sa duine seo.",
+            "afterText" : null,
+            "sortOrder" : 26,
+            "answer" : {
+              "String" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Laura Henderson"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Michelle Ní Ríordáin "
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Joe Ó Briain"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : "",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Caithfidh mé imeacht. Tá orm éirí go luath.",
+            "afterText" : null,
+            "sortOrder" : 27,
+            "answer" : {
+              "String" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Tháinig mise ar an traein."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Is mór an trua sin."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Tá sé go deas bualadh leat."
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Go breá, go raibh maith agat."
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Is as Corcaigh Seán ach tá sé ________________ i nGaillimh le fiche bliain anois.",
+            "afterText" : null,
+            "sortOrder" : 28,
+            "answer" : {
+              "String" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "ina cónaí"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "ina gcónaí"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "ina chónaí"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "inár gcónaí"
+                }
+              ]
+            }
+          }
+        ]
       }
     ]
   },
   {
     "sortOrder" : 5,
-    "title" : "Level 4 Questions",
-    "infoText" : "Read the following letter. Choose the correct answer.\n\n<div class=“letter”>\n<p>Haigh, a Shiobhán,</p>\n<p>Seo do chara Nioclás ag scríobh chugat ón…ospidéal! Thit mé den rothar ag an deireadh seachtaine agus tá mo chos briste. Beidh mé trí seachtaine eile i mo luí anseo!</p>\n<p>Ar inis mé duit go bhfuil post beag agam anois i leabharlann na hollscoile? Níl mé ann ach le tamall gearr, agus níl aithne mhaith agam ar na hoibrithe eile fós. Tá an leabharlann dúnta don Nollaig ach deir siad go mbeidh fáilte romham ar ais sa bhliain nua. Chuir siad cárta Nollag chugam anseo san ospidéal chomh maith.</p>\r\n<p>Ní shílim go mbeidh fáilte romham ar ais ar an fhoireann peile, áfach. ‘Ná déan níos mó ná rud beag siúil ar feadh cúpla mí’ – sin a deir an dochtúir. Ó, beidh sé deacair dom suí síos ag féachaint ar dhaoine eile ag imirt!</p>\n</div>\r\n",
-    "assets" : null,
-    "questions" : [
+    "title" : "Part V",
+    "groups" : [
       {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Beidh Nioclás san ospidéal ar feadh coicíse.",
-        "afterText" : null,
-        "sortOrder" : 20,
-        "answer" : {
-          "value" : "Bréagach",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "Fíor",
-              "label" : "Fíor"
-            },
-            {
-              "type" : "string",
-              "value" : "Bréagach",
-              "label" : "Bréagach"
+        "instructionText" : "Listen to the conversation and choose the correct answer.",
+        "additionalHtml" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q29-30.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/images/Q29-30.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Cén fáth nach raibh an fear ag an gcóisir aréir?",
+            "afterText" : null,
+            "sortOrder" : 29,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Bhí sé i mbialann."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Bhí pian ina bholg."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Bhí a aintín ar cuairt."
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Bhí sé róthuirseach."
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Níl na daoine eile sa leabharlann róchairdiúil.",
-        "afterText" : null,
-        "sortOrder" : 21,
-        "answer" : {
-          "value" : "Bréagach",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "Fíor",
-              "label" : "Fíor"
-            },
-            {
-              "type" : "string",
-              "value" : "Bréagach",
-              "label" : "Bréagach"
+          },
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Cá rachaidh Bróna ar saoire i mbliana?",
+            "afterText" : null,
+            "sortOrder" : 30,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Meiriceá"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "An Ghearmáin"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "An Phortaingéil"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "An Iodáil"
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "type" : "multi",
-        "level" : "A1",
-        "beforeText" : "Imríonn Nioclás peil de ghnáth.",
-        "afterText" : null,
-        "sortOrder" : 22,
-        "answer" : {
-          "value" : "Fíor",
-          "mark" : 2,
-          "options" : [
-            {
-              "type" : "string",
-              "value" : "Fíor",
-              "label" : "Fíor"
-            },
-            {
-              "type" : "string",
-              "value" : "Bréagach",
-              "label" : "Bréagach"
-            }
-          ]
-        }
+          }
+        ]
       }
     ]
   }
