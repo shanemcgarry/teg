@@ -802,7 +802,7 @@
             "afterText" : null,
             "sortOrder" : 25,
             "answer" : {
-              "String" : "A",
+              "value" : "A",
               "mark" : 2,
               "options" : [
                 {
@@ -830,7 +830,7 @@
             "afterText" : null,
             "sortOrder" : 26,
             "answer" : {
-              "String" : "C",
+              "value" : "C",
               "mark" : 2,
               "options" : [
                 {
@@ -865,7 +865,7 @@
             "afterText" : null,
             "sortOrder" : 27,
             "answer" : {
-              "String" : "B",
+              "value" : "B",
               "mark" : 2,
               "options" : [
                 {
@@ -898,7 +898,7 @@
             "afterText" : null,
             "sortOrder" : 28,
             "answer" : {
-              "String" : "B",
+              "value" : "B",
               "mark" : 2,
               "options" : [
                 {
@@ -942,7 +942,7 @@
           },
           {
             "type" : "audio",
-            "value" : "question-data/images/Q29-30.mp3"
+            "value" : "question-data/audio/Q29-30.mp3"
           }
         ],
         "questions" : [
@@ -1010,6 +1010,455 @@
                   "label" : "An Iodáil"
                 }
               ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Read the following email. Fill each gap with an appropriate word.  ",
+        "additionalHTML" : "<p>Haigh, a Bhriain,</p>",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "fill-in",
+            "level" : "A2",
+            "beforeText" : "Tháinig mé abhaile slán sábháilte ar an Domhnach. Táim an-ghnóthach anseo faoi láthair. Fuair mé post le ",
+            "afterText" : "nua agus bím istigh san oifig gach lá óna hocht ar maidin go dtí a sé tráthnóna…",
+            "sortOrder" : 0,
+            "showAnswer" : true,
+            "answer" : {
+              "value" : "comhlacht",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A2",
+            "beforeText" : "agus ní",
+            "afterText" : "ach leathuair an chloig agam don lón!",
+            "sortOrder" : 31,
+            "answer" : {
+              "value" : "bhíonn",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A2",
+            "beforeText" : "Tá",
+            "afterText" : "bheag béal dorais agus faighim anraith nó béile ansin de ghnáth.",
+            "sortOrder" : 32,
+            "answer" : {
+              "value" : "bialann",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "A2",
+            "beforeText" : "Níl mo theach rófhada ón oifig agus",
+            "afterText" : "go dtí an obair gach lá nó téim ar an rothar uaireanta. Ar mhaith leat...",
+            "sortOrder" : 33,
+            "answer" : {
+              "value" : "siúlaim",
+              "mark" : 2
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHtml" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Bíonn an aimsir níos ________________ sa gheimhreadh i Nua-Eabhrac ná mar a bhíonn sí i mBaile Átha Cliath.",
+            "afterText" : null,
+            "sortOrder" : 34,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "fuar"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "fuaire"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "fuara"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "fuair"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 6,
+    "title" : "Part VI",
+    "groups" : [
+      {
+        "instructionText" : "Read the text below. Choose the correct answer.",
+        "additionalHTML" : "<div class=letter>\n<p>\nTá sceideal nua ag Raidió na Laoi agus tá méadú 20 0x0p+0r líon na gclár Gaeilge ann. “Tá scéim ag an Rialtas chun cabhrú leis an iriseoireacht i dteangacha seachas an Béarla,” a deir bainisteoir an stáisiúin, Eilís Ní Laoire. “Chuireamar isteach air sin agus d’éirigh go maith linn. Bhíomar in ann foireann mhaith a chur le chéile agus cláir bhreise a dhéanamh.” Is iad lucht an Ard-Dioplóma sa Staidéar Cumarsáide in Institiúid Teicneolaíochta na Cathrach a dhéanfaidh roinnt bheag de na cláir, agus beidh ceann nó dhó eile le fáil ó Raidió Pobail na Gaillimhe agus ó Raidió Luimnigh. \n</p>\n<p>\nAn mbeidh cláir ann le haghaidh foghlaimeoirí Gaeilge? “Beidh, ach tá an raidió in iomaíocht le ranganna traidisiúnta agus leis na meáin chumarsáide nua. Go deimhin, déarfadh daoine leat gur ‘seanrud’ atá sa raidió, ach creidimse gur féidir an sean agus an nua a thabhairt le chéile. Cuirfimid na nótaí agus na ceachtanna go léir ar ár suíomh gréasáin, agus beidh daoine in ann iad a íoslódáil. Ar ndóigh, ní hionann an cineál cláir a thaitneoidh le daltaí scoile agus an cineál cláir a thaitneoidh le foghlaimeoirí fásta. Níl aon fhreagra simplí air sin. Ní hé nach bhfuil lucht éisteachta ann – is amhlaidh atá luchtanna éisteachta éagsúla ann! \n</p>\n</div>\n",
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B1",
+            "beforeText" : "Cén fáth a mbeidh níos mó cláir Ghaeilge ar an stáisiún? ",
+            "afterText" : null,
+            "sortOrder" : 35,
+            "answer" : {
+              "value" : "B",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Tá mic léinn ag obair leo saor in aisce."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Tá tuilleadh airgid ag teacht ón stát."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Gheobhaidh siad cláir ó stáisiúin áitiúla eile."
+                }
+              ]
+            }
+          },
+          {
+            "type" : "multi",
+            "level" : "B1",
+            "beforeText" : "Cén deacracht is mó a bhaineann le cláir d’fhoghlaimeoirí Gaeilge, dar le hEilís",
+            "afterText" : null,
+            "sortOrder" : 36,
+            "answer" : {
+              "value" : "A",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Tá sé deacair freastal ar gach cineál foghlaimeora."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Níl an raidió oiriúnach chun teanga a mhúineadh."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Níl dóthain éisteoirí ann."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "A2",
+            "beforeText" : "Tháinig mé abhaile slán sábháilte ar an Domhnach. Táim an-ghnóthach anseo faoi láthair. Fuair mé post le ",
+            "afterText" : null,
+            "sortOrder" : 37,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "bainisteoir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "mbainisteoir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "bhainisteoir"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "bhainisteora"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Read the following email. Fill each gap with an appropriate word.",
+        "additionalHtml" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Comhghairdeas! Cloisim gur éirigh go maith",
+            "afterText" : "sna scrúduithe. ",
+            "sortOrder" : 0,
+            "showAnswer" : true,
+            "answer" : {
+              "value" : "leat",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Ghlaoigh mé ort sa bhaile aréir agus",
+            "afterText" : "Siobhán liom go raibh tú sa teach tábhairne ag ceiliúradh.",
+            "sortOrder" : 38,
+            "answer" : {
+              "value" : "dúirt",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Beidh tú ag dul go dtí an ollscoil san fhómhar, is dócha. Tá an",
+            "afterText" : "ort.",
+            "sortOrder" : 39,
+            "answer" : {
+              "value" : "t-ádh",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Ba bhreá liom féin rud éigin difriúil a",
+            "afterText" : "le mo shaol. Táim tinn tuirseach den phost san oifig ach níl aon rogha eile agam faoi láthair. ",
+            "sortOrder" : 40,
+            "answer" : {
+              "value" : "dhéanamh/thriail",
+              "mark" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 7,
+    "title" : "Part VII",
+    "groups" : [
+      {
+        "instructionText" : "Listen to the following recording and choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q41.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/audio/Q41.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B1",
+            "beforeText" : "Cad a bheidh ar siúl ag Coiste na nGairdíní Glasa ar an Satharn?",
+            "afterText" : null,
+            "sortOrder" : 41,
+            "answer" : {
+              "value" : "D",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Ag bailiú airgid"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Ag glanadh cois abhann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Ag ceannach crann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Ag cur bláthanna"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B1",
+            "beforeText" : "Is maith le Marcus dul go dtí an amharclann agus an phictiúrlann ach má_____________ sé go dtí baile beag faoin tuath, ní bheidh na háiseanna sin ar fáil.",
+            "afterText" : null,
+            "sortOrder" : 42,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "bogann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "bhogfaidh"
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "bhogann"
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "mbogfaidh"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Listen to the following recording and choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : [
+          {
+            "type" : "image",
+            "value" : "question-data/images/Q43.png"
+          },
+          {
+            "type" : "audio",
+            "value" : "question-data/audio/Q43.mp3"
+          }
+        ],
+        "questions" : [
+          {
+            "type" : "multi",
+            "level" : "B1",
+            "beforeText" : "Cad a chuir moill ar Phól agus é ag dul go dtí an t-aerfort?",
+            "afterText" : null,
+            "sortOrder" : 43,
+            "answer" : {
+              "value" : "C",
+              "mark" : 2,
+              "options" : [
+                {
+                  "type" : "string",
+                  "value" : "A",
+                  "label" : "Níor éirigh sé as an leaba in am."
+                },
+                {
+                  "type" : "string",
+                  "value" : "B",
+                  "label" : "Bhí moill 10 nóiméad ar an tacsaí."
+                },
+                {
+                  "type" : "string",
+                  "value" : "C",
+                  "label" : "Rinne sé dearmad ar an bhfón póca."
+                },
+                {
+                  "type" : "string",
+                  "value" : "D",
+                  "label" : "Bhí an trácht ar na bóithre go dona."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "instructionText" : "Read the following email. Fill each gap with an appropriate word.",
+        "additionalHtml" : null,
+        "assets" : null,
+        "questions" : [
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "An cuimhin leat an ",
+            "afterText" : "sin a rinne mé don phost sa Spáinn? Bhuel, fuair mé an post! ",
+            "sortOrder" : 0,
+            "showAnswer" : true,
+            "answer" : {
+              "value" : "t-agallamh",
+              "mark" : 0
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "D’fhiafraigh siad díom an bhféadfainn tosú an mhí seo chugainn. De réir dealraimh, cuirfear árasán beag ar fáil dom ag an tús. Ar ndóigh ",
+            "afterText" : "mé teach nó árasán níos mó amach anseo nuair a bheidh an t-airgead agam.",
+            "sortOrder" : 44,
+            "answer" : {
+              "value" : "gheobhaidh/ceannóidh/cuardóidh/lorgóidh",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Ba mhaith liom bheith in ann cuireadh a",
+            "afterText" : "do mo chairde go léir teacht ar cuairt. Is mór an trua nár chríochnaigh mé an cúrsa",
+            "sortOrder" : 45,
+            "answer" : {
+              "value" : "thabhairt",
+              "mark" : 2
+            }
+          },
+          {
+            "type" : "fill-in",
+            "level" : "B1",
+            "beforeText" : "Spáinnise sin anuraidh ach má ",
+            "afterText" : "an seans, déanfaidh mé cúrsa thall sa Spáinn.",
+            "sortOrder" : 46,
+            "answer" : {
+              "value" : "fhaighim",
+              "mark" : 2
             }
           }
         ]

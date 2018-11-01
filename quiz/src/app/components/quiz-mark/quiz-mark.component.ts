@@ -45,7 +45,20 @@ export class QuizMarkComponent implements OnInit {
     this.data.forEach(s => {
       s.groups.forEach(g => {
         g.questions.forEach(q => {
-          const userMark = q.answer.userResponse === q.answer.value ? q.answer.mark : 0;
+          let userMark = 0;
+          if (!q.answer.value) {
+            console.log('uh oh! bad value!');
+            console.log(q);
+          }
+          
+          if (q.answer.value.includes('/')) {
+            const possibleValues = q.answer.value.split('/');
+            if ( q.answer.userResponse in possibleValues) {
+              userMark = q.answer.mark;
+            }
+          } else {
+            userMark = q.answer.userResponse === q.answer.value ? q.answer.mark : 0;
+          }
           this.userScore += userMark;
           results.push(new UserAnswer(q.sortOrder, q.answer.userResponse, q.answer.value, q.answer.mark, userMark));
         });
