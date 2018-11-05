@@ -412,7 +412,7 @@
             "sortOrder" : 13,
             "answer" : {
               "value" : "B",
-              "mark" : 1,
+              "mark" : 2,
               "options" : [
                 {
                   "type" : "string",
@@ -471,7 +471,7 @@
             "showAnswer" : false,
             "answer" : {
               "value" : "rang",
-              "mark" : 0
+              "mark" : 2
             }
           },
           {
@@ -483,7 +483,7 @@
             "showAnswer" : false,
             "answer" : {
               "value" : "aici",
-              "mark" : 0
+              "mark" : 2
             }
           },
           {
@@ -495,7 +495,7 @@
             "showAnswer" : false,
             "answer" : {
               "value" : "obair",
-              "mark" : 0
+              "mark" : 2
             }
           }
         ]
@@ -898,7 +898,7 @@
             "afterText" : null,
             "sortOrder" : 28,
             "answer" : {
-              "value" : "B",
+              "value" : "C",
               "mark" : 2,
               "options" : [
                 {
@@ -1035,7 +1035,7 @@
             "type" : "fill-in",
             "level" : "A2",
             "beforeText" : "agus ní",
-            "afterText" : "ach leathuair an chloig agam don lón!",
+            "afterText" : "ach leathuair an chloig agam don lón! ",
             "sortOrder" : 31,
             "answer" : {
               "value" : "bhíonn",

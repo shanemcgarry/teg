@@ -82,11 +82,25 @@ export class LevelRule {
   level: LevelType;
   beginScore: number;
   endScore: number;
+  moreInfoUrl: TegTextInfo;
+  message: TegTextInfo;
 
-  constructor(level: LevelType, beginScore: number, endScore: number) {
+  constructor(level: LevelType, beginScore: number, endScore: number, message: TegTextInfo, url: TegTextInfo) {
     this.level = level;
     this.beginScore = beginScore;
     this.endScore = endScore;
+    this.message = message;
+    this.moreInfoUrl = url;
+  }
+}
+
+export class TegTextInfo {
+  en: string;
+  ga: string;
+
+  constructor(en: string, ga: string) {
+    this.en = en;
+    this.ga = ga;
   }
 }
 

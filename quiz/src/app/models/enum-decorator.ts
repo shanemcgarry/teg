@@ -19,6 +19,6 @@ export function OptionTypeAware(constructor: Function) {
   constructor.prototype.OptionType = OptionType;
 }
 
-export function QuizViewModeAware(construction: Function) {
+export function QuizViewModeAware(constructor: Function) {
   constructor.prototype.QuizViewMode = QuizViewMode;
 }

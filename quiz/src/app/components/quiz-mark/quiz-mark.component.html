@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
   <h3>Quiz Complete!</h3>
   <div>
     Please see your scores below.
@@ -9,10 +9,35 @@
     <p>Based on your score, we recommend {{ this.getLevel() }} level courses.</p>
   </div>
 
+  <div *ngIf="showScoreCard" class="message">
+    <app-result-details [data]="this.userResults"></app-result-details>
+  </div>
+
   <div>
     <p>
       Sin deireadh leis an tástáil.
     </p>
     <h4>Go raibh maith agat!</h4>
   </div>
-</div>
+</div>-->
+
+<mat-tab-group color="accent" *ngIf="this.userResults">
+  <mat-tab label="Irish">
+    <div class="message">
+      <p>
+        <span>Marcanna Iomlána:</span>&nbsp;&nbsp;<span>{{ this.userScore }}</span>
+      </p>
+      <p>{{ this.getRuleInfo().message.ga }}</p>
+      <a mat-raised-button color="primary" class="start-button" [href]="this.getRuleInfo().moreInfoUrl.ga">Cliceáil Anseo</a>
+    </div>
+  </mat-tab>
+  <mat-tab label="English">
+    <div class="message">
+      <p>
+        <span>Total Marks:</span> <span>{{ this.userScore }}</span>
+      </p>
+      <p>{{ this.getRuleInfo().message.en }}</p>
+      <a mat-raised-button color="primary" class="start-button" [href]="this.getRuleInfo().moreInfoUrl.en">Click Here</a>
+    </div>
+  </mat-tab>
+</mat-tab-group>

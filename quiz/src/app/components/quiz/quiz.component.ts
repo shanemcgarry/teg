@@ -21,7 +21,7 @@ export class QuizComponent implements OnInit {
       .subscribe(
         data => this.dataModel = data,
         err => console.log(err),
-        () => console.log('Question file loaded')
+        () => console.log('Quiz data loaded')
       );
   }
   beginQuiz(): void {
