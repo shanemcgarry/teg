@@ -11,7 +11,7 @@
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Máire is ainm ……………...",
+            "beforeText" : "Máire is ainm <span class='blank'>_</span>",
             "afterText" : null,
             "sortOrder" : 1,
             "answer" : {

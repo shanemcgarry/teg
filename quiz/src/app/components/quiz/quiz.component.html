@@ -28,6 +28,7 @@
 <mat-horizontal-stepper *ngIf="this.viewMode === this.quizViewMode.Quiz && this.dataModel" [linear]="true" #stepper>
   <mat-step *ngFor="let s of this.dataModel">
     <ng-template matStepLabel>{{ s.title }}</ng-template>
+    <mat-progress-bar color="primary" mode="determinate" [value]="this.calculateProgress(s)"></mat-progress-bar>
     <app-question-group *ngFor="let qg of s.groups " [data]="qg"></app-question-group>
     <button *ngIf="s.sortOrder > 1" mat-raised-button color="accent" class="nav-buttons" matStepperPrevious>Back</button>
     <button mat-raised-button color="accent" class="nav-buttons" matStepperNext>Next</button>

@@ -10,6 +10,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
@@ -49,6 +50,7 @@ import { ResultDetailsComponent } from './components/result-details/result-detai
     MatButtonModule,
     MatTabsModule,
     MatStepperModule,
+    MatProgressBarModule,
     MatRadioModule,
     MatInputModule,
     MatTableModule

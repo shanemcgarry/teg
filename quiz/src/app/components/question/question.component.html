@@ -1,7 +1,7 @@
 <div *ngIf="this.data.type === this.questionType.MultipleChoice" fxFlex="100">
   <ol [start]="this.data.sortOrder">
     <li>
-      <span>{{ this.data.beforeText }}</span>
+      <span [innerHTML]="this.data.beforeText"></span>
       <mat-radio-group [(ngModel)]="this.data.answer.userResponse">
         <ol type="A" class="answer-options">
           <li *ngFor="let o of this.data.answer.options" [class]="o.type === this.optionType.Asset ? 'display-h': 'display-v'">
@@ -16,6 +16,7 @@
 
 <span *ngIf="this.data.type === this.questionType.FillInTheBlank" class="fill-in">
   <span class="before-text" *ngIf="this.data.beforeText">{{ this.data.beforeText }}</span>
+  <span *ngIf="!this.data.showAnswer" class="question-number">&nbsp;{{ '(' + this.data.sortOrder + ')'}} &nbsp;</span>
   <mat-form-field>
     <input matInput *ngIf="this.data.showAnswer" [disabled]="true" [value]="this.data.answer.value">
     <input matInput *ngIf="!this.data.showAnswer" [(ngModel)]="this.data.answer.userResponse">

@@ -1,3 +1,5 @@
+@import '../../../styles/theme';
+
 .answer-options {
   margin-top: 1%;
   mat-radio-button {
@@ -9,6 +11,13 @@
   float: left;
   padding-right: 2%;
   margin-right: 1%;
+}
+
+.question-number {
+  display: inline-block;
+  font-weight: bold;
+  font-style: italic;
+  color: mat-color($md-teg-secondary, 700);
 }
 
 .fill-in {

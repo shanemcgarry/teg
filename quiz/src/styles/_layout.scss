@@ -6,6 +6,32 @@ body {
   background-color: rgb(239, 239, 239);
 }
 
+.blank::before {
+  content: '_____';
+}
+
+.blank::after {
+  content: '_____';
+}
+
+.mat-horizontal-stepper-header-container {
+  display: none !important;
+}
+
+.mat-input-element:disabled {
+  color: mat-color($md-teg-primary);
+  font-style: italic;
+}
+
+li {
+  margin-bottom: 5px !important;
+}
+
+.mat-form-field-infix {
+  padding: 0;
+  border: none;
+}
+
 .container {
   width: 100%;
   margin-top: 1%;
