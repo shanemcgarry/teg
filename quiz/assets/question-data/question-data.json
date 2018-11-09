@@ -11,7 +11,7 @@
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Máire is ainm ……………...",
+            "beforeText" : "Máire is ainm <span class=blank>_</span>",
             "afterText" : null,
             "sortOrder" : 1,
             "answer" : {
@@ -40,11 +40,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "……………... bhfuil tú i do chónaí?",
+            "beforeText" : "<span class=blank>_</span> bhfuil tú i do chónaí?",
             "afterText" : null,
             "sortOrder" : 2,
             "answer" : {
@@ -73,11 +86,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Chuaigh mé go dtí an phictiúrlann chun …..………..a fheiceáil.",
+            "beforeText" : "Chuaigh mé go dtí an phictiúrlann chun <span class=blank>_</span> a fheiceáil.",
             "afterText" : null,
             "sortOrder" : 3,
             "answer" : {
@@ -106,11 +132,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Tá ……………… agus dhá chathaoir sa seomra suí.",
+            "beforeText" : "Tá <span class=blank>_</span> agus dhá chathaoir sa seomra suí.",
             "afterText" : null,
             "sortOrder" : 4,
             "answer" : {
@@ -139,11 +178,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Is altra mé agus oibrím ……………………….",
+            "beforeText" : "Is altra mé agus oibrím <span class=blank>_</span>",
             "afterText" : null,
             "sortOrder" : 5,
             "answer" : {
@@ -172,7 +224,20 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
@@ -205,11 +270,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Bhí béile an-deas agam sa ……………………. aréir.",
+            "beforeText" : "Bhí béile an-deas agam sa <span class=blank>_</span> aréir.",
             "afterText" : null,
             "sortOrder" : 7,
             "answer" : {
@@ -238,7 +316,20 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
@@ -271,11 +362,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "An ……………... tú chuig an teach tábhairne?",
+            "beforeText" : "An <span class=blank>_</span> tú chuig an teach tábhairne?",
             "afterText" : null,
             "sortOrder" : 9,
             "answer" : {
@@ -304,11 +408,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "",
-            "beforeText" : "Tá tart orm agus ba mhaith liom  ……………...",
+            "beforeText" : "Tá tart orm agus ba mhaith liom  <span class=blank>_</span>",
             "afterText" : null,
             "sortOrder" : 10,
             "answer" : {
@@ -337,11 +454,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "A1",
-            "beforeText" : "Ithim mo lón …………….. a haon agus a dó.",
+            "beforeText" : "Ithim mo lón <span class=blank>_</span> a haon agus a dó.",
             "afterText" : null,
             "sortOrder" : 11,
             "answer" : {
@@ -370,7 +500,20 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "A1",
@@ -403,11 +546,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 1,
+    "title" : "Part I",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "A1",
-            "beforeText" : "Bhí mé ar saoire i Sligeach agus d’fhan mé  ____ óstán beag cois farraige.",
+            "beforeText" : "Bhí mé ar saoire i Sligeach agus d’fhan mé  <span class=blank>_</span> óstán beag cois farraige.",
             "afterText" : null,
             "sortOrder" : 13,
             "answer" : {
@@ -499,7 +655,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 2,
+    "title" : "Part II",
+    "groups" : [
       {
         "instructionText" : "Listen to the following recording and choose the correct answer.",
         "additionalHTML" : null,
@@ -593,7 +755,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 2,
+    "title" : "Part II",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -602,7 +770,7 @@
           {
             "type" : "multi",
             "level" : "A1",
-            "beforeText" : "Rinne Giovanni cúrsa cócaireachta an bhliain seo caite. Is cócaire _______________ anois é agus tá post aige i mbialann Iodálach.",
+            "beforeText" : "Rinne Giovanni cúrsa cócaireachta an bhliain seo caite. Is cócaire <span class=blank>_</span> anois é agus tá post aige i mbialann Iodálach.",
             "afterText" : null,
             "sortOrder" : 19,
             "answer" : {
@@ -715,7 +883,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 3,
+    "title" : "Part III",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -852,7 +1026,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 4,
+    "title" : "Part IV",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : "",
@@ -890,11 +1070,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 4,
+    "title" : "Part IV",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : "",
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "A2",
-            "beforeText" : "Is as Corcaigh Seán ach tá sé ________________ i nGaillimh le fiche bliain anois.",
+            "beforeText" : "Is as Corcaigh Seán ach tá sé <span class=blank>_</span> i nGaillimh le fiche bliain anois.",
             "afterText" : null,
             "sortOrder" : 28,
             "answer" : {
@@ -1013,7 +1206,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 5,
+    "title" : "Part V",
+    "groups" : [
       {
         "instructionText" : "Read the following email. Fill each gap with an appropriate word.  ",
         "additionalHTML" : "<p>Haigh, a Bhriain,</p>",
@@ -1065,7 +1264,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 5,
+    "title" : "Part V",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHtml" : null,
@@ -1074,7 +1279,7 @@
           {
             "type" : "multi",
             "level" : "A2",
-            "beforeText" : "Bíonn an aimsir níos ________________ sa gheimhreadh i Nua-Eabhrac ná mar a bhíonn sí i mBaile Átha Cliath.",
+            "beforeText" : "Bíonn an aimsir níos <span class=blank>_</span> sa gheimhreadh i Nua-Eabhrac ná mar a bhíonn sí i mBaile Átha Cliath.",
             "afterText" : null,
             "sortOrder" : 34,
             "answer" : {
@@ -1174,7 +1379,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 6,
+    "title" : "Part VI",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -1214,7 +1425,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 6,
+    "title" : "Part VI",
+    "groups" : [
       {
         "instructionText" : "Read the following email. Fill each gap with an appropriate word.",
         "additionalHtml" : null,
@@ -1321,7 +1538,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 7,
+    "title" : "Part VII",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -1330,7 +1553,7 @@
           {
             "type" : "multi",
             "level" : "B1",
-            "beforeText" : "Is maith le Marcus dul go dtí an amharclann agus an phictiúrlann ach má_____________ sé go dtí baile beag faoin tuath, ní bheidh na háiseanna sin ar fáil.",
+            "beforeText" : "Is maith le Marcus dul go dtí an amharclann agus an phictiúrlann ach má  <span class=blank>_</span> sé go dtí baile beag faoin tuath, ní bheidh na háiseanna sin ar fáil.",
             "afterText" : null,
             "sortOrder" : 42,
             "answer" : {
@@ -1361,7 +1584,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 7,
+    "title" : "Part VII",
+    "groups" : [
       {
         "instructionText" : "Listen to the following recording and choose the correct answer.",
         "additionalHTML" : null,
@@ -1410,7 +1639,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 7,
+    "title" : "Part VII",
+    "groups" : [
       {
         "instructionText" : "Read the following email. Fill each gap with an appropriate word.",
         "additionalHtml" : null,
@@ -1462,7 +1697,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 7,
+    "title" : "Part VII",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -1471,7 +1712,7 @@
           {
             "type" : "multi",
             "level" : "B2",
-            "beforeText" : "Ní raibh ar díol sa siopa ach ceapairí, deochanna ____________agus uachtar reoite.",
+            "beforeText" : "Ní raibh ar díol sa siopa ach ceapairí, deochanna <span class=blank>_</span> agus uachtar reoite.",
             "afterText" : null,
             "sortOrder" : 47,
             "answer" : {
@@ -1581,7 +1822,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 8,
+    "title" : "Part VIII",
+    "groups" : [
       {
         "instructionText" : "Listen to the following recording and choose the correct answer.",
         "additionalHTML" : null,
@@ -1663,7 +1910,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 8,
+    "title" : "Part VIII",
+    "groups" : [
       {
         "instructionText" : "Read the following text. Fill each gap with an appropriate word.",
         "additionalHtml" : null,
@@ -1761,7 +2014,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
       {
         "instructionText" : "Listen to the following recording and choose the correct answer.",
         "additionalHTML" : null,
@@ -1810,7 +2069,13 @@
             }
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
       {
         "instructionText" : "Choose the correct answer.",
         "additionalHTML" : null,
@@ -1819,7 +2084,7 @@
           {
             "type" : "multi",
             "level" : "B2",
-            "beforeText" : "Tá fear an-deas ina chónaí béal dorais dúinn agus  ______________ sé súil ar an árasán nuair a bhímid as baile.",
+            "beforeText" : "Tá fear an-deas ina chónaí béal dorais dúinn agus <span class=blank>_</span> sé súil ar an árasán nuair a bhímid as baile.",
             "afterText" : null,
             "sortOrder" : 57,
             "answer" : {
@@ -1848,11 +2113,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "B2",
-            "beforeText" : "Easpa ama! Sin é galar mór na linne seo. Ní bhíonn am againn sos lóin a ghlacadh. Diúltaímid cuirí ó chairde mar ní bhíonn deis againn ________ a chaitheamh ina gcuideachta.",
+            "beforeText" : "Easpa ama! Sin é galar mór na linne seo. Ní bhíonn am againn sos lóin a ghlacadh. Diúltaímid cuirí ó chairde mar ní bhíonn deis againn <span class=blank>_</span> a chaitheamh ina gcuideachta.",
             "afterText" : null,
             "sortOrder" : 58,
             "answer" : {
@@ -1881,11 +2159,24 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "B2",
-            "beforeText" : "Is beag duine nár chuala ______________  éigin ar an teanga idirnáisiúnta, Esperanto. ",
+            "beforeText" : "Is beag duine nár chuala <span class=blank>_</span>  éigin ar an teanga idirnáisiúnta, Esperanto. ",
             "afterText" : null,
             "sortOrder" : 59,
             "answer" : {
@@ -1914,7 +2205,20 @@
                 }
               ]
             }
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sortOrder" : 9,
+    "title" : "Part IX",
+    "groups" : [
+      {
+        "instructionText" : "Choose the correct answer.",
+        "additionalHTML" : null,
+        "assets" : null,
+        "questions" : [
           {
             "type" : "multi",
             "level" : "B2",
