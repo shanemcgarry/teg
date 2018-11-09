@@ -1,6 +1,6 @@
 [
   {
-    "sortOrder" : 1,
+    "sortOrder" : 0,
     "title" : "Part I",
     "groups" : [
       {
@@ -610,7 +610,7 @@
             "type" : "fill-in",
             "level" : "A1",
             "beforeText" : "An cuimhin",
-            "afterText" : "Sorcha?",
+            "afterText" : "Sorcha? ",
             "sortOrder" : 0,
             "showAnswer" : true,
             "answer" : {
@@ -622,7 +622,7 @@
             "type" : "fill-in",
             "level" : "A1",
             "beforeText" : "Bhí sí sa",
-            "afterText" : "liom ar scoil.",
+            "afterText" : "liom ar scoil. ",
             "sortOrder" : 14,
             "showAnswer" : false,
             "answer" : {
@@ -634,7 +634,7 @@
             "type" : "fill-in",
             "level" : "A1",
             "beforeText" : "Tá sí pósta anois agus tá beirt pháistí",
-            "afterText" : null,
+            "afterText" : ". ",
             "sortOrder" : 15,
             "showAnswer" : false,
             "answer" : {
@@ -1353,7 +1353,7 @@
           {
             "type" : "multi",
             "level" : "B1",
-            "beforeText" : "Cén deacracht is mó a bhaineann le cláir d’fhoghlaimeoirí Gaeilge, dar le hEilís",
+            "beforeText" : "Cén deacracht is mó a bhaineann le cláir d’fhoghlaimeoirí Gaeilge, dar le hEilís?",
             "afterText" : null,
             "sortOrder" : 36,
             "answer" : {
@@ -1394,7 +1394,7 @@
           {
             "type" : "multi",
             "level" : "A2",
-            "beforeText" : "Tháinig mé abhaile slán sábháilte ar an Domhnach. Táim an-ghnóthach anseo faoi láthair. Fuair mé post le ",
+            "beforeText" : "Bhí mé dífhostaithe ar feadh cúpla mí ach ar deireadh fuair mé post mar <span class=blank>_</span> i dteach tábhairne i Luimneach.",
             "afterText" : null,
             "sortOrder" : 37,
             "answer" : {
@@ -1464,7 +1464,7 @@
             "type" : "fill-in",
             "level" : "B1",
             "beforeText" : "Beidh tú ag dul go dtí an ollscoil san fhómhar, is dócha. Tá an",
-            "afterText" : "ort.",
+            "afterText" : "ort. ",
             "sortOrder" : 39,
             "answer" : {
               "value" : "t-ádh",
