@@ -14,6 +14,13 @@ body {
   content: '_____';
 }
 
+.mat-radio-label-content {
+  white-space: normal;
+  word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .mat-horizontal-stepper-header-container {
   display: none !important;
 }

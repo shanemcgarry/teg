@@ -1,2 +1,2 @@
 <img *ngIf="this.data.type === this.assetType.Image" [src]="getFileSource()" />
-<audio *ngIf="this.data.type === this.assetType.AudioClip" preload="auto" controls="controls" [src]="getFileSource()"></audio>
+<audio #audioPlayer *ngIf="this.data.type === this.assetType.AudioClip" preload="auto" controls="controls" [src]="getFileSource()"></audio>

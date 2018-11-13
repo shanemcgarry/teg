@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, ViewChild} from '@angular/core';
 import {AnswerOption, Question, QuestionAnswer } from '../../models/question.model';
 import {OptionTypeAware, QuestionTypeAware} from '../../models/enum-decorator';
 import { QuestionType, OptionType } from '../../models/enums';

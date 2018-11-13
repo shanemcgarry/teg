@@ -19,7 +19,7 @@
   <span *ngIf="!this.data.showAnswer" class="question-number">&nbsp;{{ '(' + this.data.sortOrder + ')'}} &nbsp;</span>
   <mat-form-field>
     <input matInput *ngIf="this.data.showAnswer" [disabled]="true" [value]="this.data.answer.value">
-    <input matInput *ngIf="!this.data.showAnswer" [(ngModel)]="this.data.answer.userResponse">
+    <input matInput *ngIf="!this.data.showAnswer" autocapitalize="none" [(ngModel)]="this.data.answer.userResponse">
   </mat-form-field>
   <span class="after-text" *ngIf="this.data.afterText">{{ this.data.afterText }}</span>
 </span>

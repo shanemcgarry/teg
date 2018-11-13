@@ -1,8 +1,10 @@
-import {Component, OnInit} from '@angular/core';
-import {QuizStep} from '../../models/question.model';
+import {Component, OnInit, QueryList, ViewChild, ViewChildren} from '@angular/core';
+import {Question, QuizStep} from '../../models/question.model';
 import {FileAccessService} from '../../controllers/file-access.service';
 import {QuizViewModeAware} from '../../models/enum-decorator';
 import {QuizViewMode} from '../../models/enums';
+import {MatTabChangeEvent} from '@angular/material';
+import {QuestionGroupComponent} from '../question-group/question-group.component';
 
 @Component({
   selector: 'app-quiz',
@@ -11,10 +13,13 @@ import {QuizViewMode} from '../../models/enums';
 })
 @QuizViewModeAware
 export class QuizComponent implements OnInit {
+  @ViewChildren(QuestionGroupComponent) questionGroup: QueryList<QuestionGroupComponent>;
   viewMode: QuizViewMode = QuizViewMode.Instructions;
   dataModel: QuizStep[];
   quizViewMode = QuizViewMode;
   totalQuestions: number;
+  preferredLanguage = 'ga';
+  currentStep = 0;
   constructor(private fileService: FileAccessService) { }
 
   ngOnInit() {
@@ -24,6 +29,19 @@ export class QuizComponent implements OnInit {
         err => console.log(err),
         () => this.calculateQuestionTotal()
       );
+  }
+
+  onNavigate(step: number): void {
+    this.questionGroup.toArray()[this.currentStep].stopAudio();
+    this.currentStep += step;
+  }
+
+  onTabChanged(e: MatTabChangeEvent): void {
+    if (e.index === 0) {
+      this.preferredLanguage = 'ga';
+    } else {
+      this.preferredLanguage = 'en';
+    }
   }
 
   calculateQuestionTotal(): void {

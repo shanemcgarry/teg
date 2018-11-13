@@ -21,7 +21,7 @@
   </div>
 </div>-->
 
-<mat-tab-group color="accent" *ngIf="this.userResults">
+<mat-tab-group color="accent" *ngIf="this.userResults" [selectedIndex]="this.setActiveTab()">
   <mat-tab label="Irish">
     <div class="message">
       <p>

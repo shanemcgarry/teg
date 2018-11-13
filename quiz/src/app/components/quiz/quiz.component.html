@@ -1,4 +1,4 @@
-<mat-tab-group color="accent" *ngIf="this.viewMode === this.quizViewMode.Instructions">
+<mat-tab-group color="accent" *ngIf="this.viewMode === this.quizViewMode.Instructions" (selectedTabChange)="this.onTabChanged($event)" >
   <mat-tab label="Irish">
     <h3>Déan tástáil ar do chuid Gaeilge!</h3>
 
@@ -30,8 +30,12 @@
     <ng-template matStepLabel>{{ s.title }}</ng-template>
     <mat-progress-bar color="primary" mode="determinate" [value]="this.calculateProgress(s)"></mat-progress-bar>
     <app-question-group *ngFor="let qg of s.groups " [data]="qg"></app-question-group>
-    <button *ngIf="s.sortOrder > 0" mat-raised-button color="accent" class="nav-buttons" matStepperPrevious>Back</button>
-    <button mat-raised-button color="accent" class="nav-buttons" matStepperNext>Next</button>
+    <button *ngIf="s.sortOrder > 0" mat-raised-button color="accent" class="nav-buttons" (click)="onNavigate(-1)" matStepperPrevious>
+      {{ this.preferredLanguage === 'ga' ? 'Siar' : 'Back' }}
+    </button>
+    <button mat-raised-button color="accent" class="nav-buttons" (click)="onNavigate(1)" matStepperNext>
+      {{ this.preferredLanguage === 'ga' ? 'Ar Aghaidh' : 'Next' }}
+    </button>
   </mat-step>
   <mat-step>
     <ng-template matStepLabel>Submit</ng-template>
@@ -43,5 +47,5 @@
   </mat-step>
 </mat-horizontal-stepper>
 <section class="final-marks" *ngIf="this.viewMode === this.quizViewMode.Marks">
-  <app-quiz-mark [data]="this.dataModel"></app-quiz-mark>
+  <app-quiz-mark [lang]="this.preferredLanguage" [data]="this.dataModel"></app-quiz-mark>
 </section>

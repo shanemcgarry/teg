@@ -11,6 +11,7 @@ import Level = logging.Level;
 })
 export class QuizMarkComponent implements OnInit {
   @Input() data: QuizStep[];
+  @Input() lang: string;
   userScore: number;
   totalScore: number;
   showScoreCard = false;
@@ -65,6 +66,14 @@ export class QuizMarkComponent implements OnInit {
         });
       });
     });
+  }
+
+  setActiveTab(): number {
+    if (this.lang === 'ga') {
+      return 0;
+    } else {
+      return 1;
+    }
   }
 
   getRuleInfo(): LevelRule {
