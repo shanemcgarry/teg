@@ -16,7 +16,7 @@ export class FileAccessService {
   }
 
   getQuestionFile(): Observable<QuizStep[]> {
-    return this.httpClient.get<QuizStep[]>('./assets/question-data/question-data.json')
+    return this.httpClient.get<QuizStep[]>('/assets/question-data/question-data.json')
       .pipe(
         catchError(this.handleError('getQuestionFile', null))
       );
